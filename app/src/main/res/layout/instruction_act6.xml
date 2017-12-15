@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/plain"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nine"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="127dp"
+
+        app:srcCompat="@drawable/downarrow"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/langDemo" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="36dp"
+        app:srcCompat="@drawable/downarrow" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView11"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="29dp"
+        android:layout_toEndOf="@+id/imageView11"
+        android:text="@string/disTap" />
+
+    <ImageView
+        android:id="@+id/lastpg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="42dp"
+        app:srcCompat="@drawable/se" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView15"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="12dp"
+        android:layout_toStartOf="@+id/textView7"
+        android:text="@string/tap" />
+
+    <Button
+        android:id="@+id/toStartScreenAfterInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="toStartScreen"
+        android:text="@string/doneWithInstructions" />
+
+</RelativeLayout>

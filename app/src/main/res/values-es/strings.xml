@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reunión familiar</string>
+    <string name="connectFeat">conectar</string>
+    <string name="disconnectFeat">desconectar</string>
+    <string name="startFeat">Jugar</string>
+    <string name="phoneNumberInput">Por favor ingrese un número de teléfono.</string>
+    <string name="sendAction">Enviar</string>
+    <string name="guessInput">Escriba su suposición.</string>
+    <string name="topicButton">¡Tema!</string>
+    <string name="guessChat">¡Adivinar!</string>
+    <string name="backButtonFromChatToMain">Anterior</string>
+    <string name="categoryInstructions">Elige una categoría</string>
+    <string name="animal">Animales</string>
+    <string name="goals">Metas</string>
+    <string name="family">Familia</string>
+    <string name="feelings">Sentimientos</string>
+    <string name="instructions">" En este juego, se le dan temas para recrear a la otra persona a través de la transmisión de video en vivo. El más viejo comienza. El otro     el jugador adivinará ingresando una suposición. La conjetura se le enviará de vuelta a cualquier idioma que elija. Si ese jugador adivinó correctamente,     hágales saber a través del chat. Deje que la otra persona represente el mismo tema, pero esta vez, tiene que adivinar. Si ambos pudieron adivinar     lo que cada uno de ustedes estaba actuando, vaya al siguiente tema. Hay una barra de progreso en la que le permitirá saber cuántos ha adivinado.     Una vez que se llena. el juego ha terminado."</string>
+    <string name="instructionsButton">Instrucciones</string>
+    <string name="unveilButton">Mostrar la pregunta!</string>
+
+    <string-array name="animalTopics">
+        <item>¿Qué tipo de mascota tienes?</item>
+        <item>¿Cuál es tu animal favorito?</item>
+        <item>¿Cuál es tu animal menos favorito?</item>
+        <item>¿Con qué animal crees que te relacionas?</item>
+        <item>¿Qué tipo de mascota te gustaría tener?</item>
+    </string-array>
+
+    <string-array name="feelingTopics">
+        <item>¿De qué tienes miedo?</item>
+        <item>¿Qué actividad te hace feliz?</item>
+        <item>¿Para qué te entusiasma la próxima semana?</item>
+        <item>¿A qué lugar ficticio te gustaría ir?</item>
+        <item>¿En qué trabajo crees que serías terrible?</item>
+        <item>¿Qué es algo que te molesta?</item>
+        <item>¿Cuál es la actividad más aburrida que puedes pensar?</item>
+        <item>¿Qué tipo de comida te gusta?</item>
+    </string-array>
+
+    <string-array name="goalTopics">
+        <item>¿Qué querías ser cuando seas grande?</item>
+        <item>¿Cuál será tu resolución de Año Nuevo?</item>
+        <item>Si aprendieras una nueva habilidad, ¿cuál sería?</item>
+        <item>¿Qué es algo que necesitas mejorar?</item>
+        <item>¿En qué tipo de deportes te gustaría ser bueno?</item>
+        <item>¿Qué superpotencia querrías tener?</item>
+        <item>¿Qué es algo que haces para desahogarse?</item>
+    </string-array>
+
+    <string-array name="movieTopics">
+        <item>¿Cuál es tu tipo de película favorita?</item>
+        <item>¿Cuál es tu tipo de película menos favorita?</item>
+        <item>¿Cuál fue la última película que viste en los cines?</item>
+    </string-array>
+
+    <string-array name="familyTopics">
+        <item>¿Quién es tu persona menos favorita en tu familia?</item>
+        <item>¿Quién es alguien a quien admiras en tu familia?</item>
+        <item>¿Qué estás estudiando en la universidad?</item>
+        <item>¿Cual es tu talento?</item>
+    </string-array>
+    <string name="nextQ">¡Próxima pregunta!</string>
+    <string name="nextPage">Siguiente</string>
+    <string name="d2">Primero, elige un idioma</string>
+    <string name="doneWithInstructions">Hecho</string>
+    <string name="tap">Toque "Conectar" para iniciar la transmisión de video en vivo para representar las preguntas.</string>
+    <string name="disTap">Al tocar esto, te desconectará del otro jugador.</string>
+    <string name="langDemo">Aquí está el registro. La primera entrada en la respuesta se tradujo en el idioma que elegimos. El de abajo es el mensaje original enviado por el otro jugador.</string>
+    <string name="catMess">Después de comenzar, debe elegir una categoría. Ambos jugadores deben tener la misma categoría.</string>
+
+</resources>

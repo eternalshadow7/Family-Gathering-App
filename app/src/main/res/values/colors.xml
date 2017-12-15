@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#676474</color>
+    <color name="colorPrimaryDark">#003333</color>
+    <color name="colorAccent">#FAFAFA</color>
+    <color name="colorSkin">#FAFAFA</color>
+    <color name="lightestTeal">#CCFFFF</color>
+    <color name="secondLightestTeal">#66CCCC</color>
+    <color name="colorGray">#FCE7D4</color>
+    <color name="orangeCol">#F7BB80</color>
+    <color name="pinkCol">#FBB3BC</color>
+    <color name="greenCol">#B2C991</color>
+    <color name="salmon">#f88379</color>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">家族の集い</string>
+    <string name="connectFeat">接続する</string>
+    <string name="disconnectFeat">切断する</string>
+    <string name="startFeat">開始</string>
+    <string name="phoneNumberInput">他のプレイヤーの電話番号</string>
+    <string name="sendAction">届ける</string>
+    <string name="guessInput">推測を入力</string>
+    <string name="topicButton">トピック!</string>
+    <string name="guessChat">推測！</string>
+    <string name="backButtonFromChatToMain">前</string>
+    <string name="categoryInstructions">カテゴリを選択</string>
+    <string name="animal">動物</string>
+    <string name="goals">目標</string>
+    <string name="family">家族</string>
+    <string name="feelings">感情</string>
+    <string name="instructions">このゲームでは、ライブビデオフィードを介して相手に再制定するトピックが与えられます。最も古いものが始まります。もう片方     プレイヤーは推測を入力して推測します。推測は、あなたが選んだ言語に翻訳されて返されます。そのプレイヤーが正しく推測した場合、     チャットで知らせる。他の人に同じ話題を出させてください。しかし今回は、あなたは推測する必要があります。あなたの両方が推測できたら     それぞれが何をしていたのか、次のトピックに進んでください。あなたが推測した数を教えてくれるプログレスバーがあります。     一度それが満たされます。ゲームは終りだ</string>
+    <string name="instructionsButton">" 指示"</string>
+    <string name="unveilButton">質問を表示する！</string>
+
+    <string-array name="animalTopics">
+        <item>どのようなタイプのペットがありますか</item>
+        <item>あなたの好きな動物は何ですか</item>
+        <item>あなたの最も好きな動物は何ですか</item>
+        <item>あなたはどんな動物に関係していると思いますか</item>
+        <item>どんなタイプのペットを持っておきたいですか</item>
+    </string-array>
+
+    <string-array name="feelingTopics">
+        <item>あなたは何を怖がっていますか</item>
+        <item>どのような活動があなたを幸せにしますか</item>
+        <item>あなたは来週に何が興奮していますか</item>
+        <item>あなたはどんな架空の場所に行きたいですか</item>
+        <item>あなたはどんな仕事を恐ろしいと思いますか</item>
+        <item>あなたを悩ませるものは何ですか</item>
+        <item>あなたが考えることができる最も退屈な活動は何ですか</item>
+        <item>どんなタイプの食べ物が好きですか</item>
+    </string-array>
+
+    <string-array name="goalTopics">
+        <item>あなたが育った時、あなたは何になりたかったのですか</item>
+        <item>あなたの新年の決議は何ですか</item>
+        <item>あなたが新しいスキルを学ぶなら、それは何でしょうか</item>
+        <item>あなたが改善する必要があるものは何ですか</item>
+        <item>どんなスポーツが好調だったらいいですか</item>
+        <item>どのような超大国にいたいですか</item>
+        <item>あなたは自分自身を傷つけるために何をしていますか</item>
+    </string-array>
+
+    <string-array name="movieTopics">
+        <item>あなたの好きな映画は何ですか</item>
+        <item>あなたの最も好きな映画の種類は何ですか</item>
+        <item>あなたが劇場で最後に見た映画は何ですか</item>
+    </string-array>
+
+    <string-array name="familyTopics">
+        <item>あなたの家族の中であなたの最も好きな人は誰ですか</item>
+        <item>あなたの家族の中であなたが見上げる人は誰ですか</item>
+        <item>あなたは大学で何を勉強していますか</item>
+        <item>あなたの才能は何ですか</item>
+    </string-array>
+    <string name="nextQ">次の問題！</string>
+    <string name="nextPage">次</string>
+    <string name="d2">まず、言語を選択してください</string>
+    <string name="doneWithInstructions">完了</string>
+    <string name="tap">「接続」をタップしてライブビデオフィードを開始し、質問を実行します。</string>
+    <string name="disTap">これをタップすると、他のプレーヤーから切断されます</string>
+    <string name="langDemo">ここにログがあります。私たちが選んだ言語で翻訳された最初のエントリ。下の1つは、他のプレーヤーから送信された元のメッセージです。</string>
+
+    <string name="catMess">始めると、カテゴリを選択する必要があります。どちらのプレイヤーも同じカテゴリを持つ必要があります</string>
+
+</resources>
